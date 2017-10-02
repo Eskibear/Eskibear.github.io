@@ -5,11 +5,18 @@ node_js: stable
 install:
   - npm install
 
+before_script:
+  - mkdir ./public
+  - cd ./public
+  - git clone "https://${GH_REF}"
+  - git checkout master
+  - cd ..
+
 script:
   - hexo g
 
 after_success:
-  - cd ./master
+  - cd ./public
   - git add .
   - git commit -m "updated at $(date)"
   - git push --quiet "https://${GH_TOKEN}@${GH_REF}" HEAD:master
