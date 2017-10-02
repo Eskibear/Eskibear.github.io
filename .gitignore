@@ -8,3 +8,4 @@ public
 master
 .deploy
 .deploy_git
+.DS_Store
