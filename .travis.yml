@@ -28,3 +28,7 @@ branches:
 env:
  global:
    - GH_REF: github.com/Eskibear/Eskibear.github.io.git
+
+notifications:
+  email: false
+
