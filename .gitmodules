@@ -4,3 +4,4 @@
 [submodule "master"]
 	path = master
 	url = https://github.com/Eskibear/Eskibear.github.io.git
+	branch = master

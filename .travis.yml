@@ -8,7 +8,7 @@ install:
 script:
   - hexo g
 
-after_script:
+after_success:
   - cd ./master
   - git add .
   - git commit -m "updated at $(date)"
