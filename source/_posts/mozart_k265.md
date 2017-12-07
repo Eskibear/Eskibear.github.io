@@ -19,8 +19,8 @@ By Mozart, including 12 variations.
 * ~~Var 3: Completed.~~
 * ~~Var 4: Completed.~~
 * ~~Var 5: Completed.~~ (updated on 2017.10.01) (completed on 2017.10.12)
-* **Var 6: Working.** (started on 2017.10.12)
-* Var 7: Not started.
+* ~~Var 6: Completed.~~ (started on 2017.10.12) (completed on 2017.12.7)
+* **Var 7: Working.** (started on 2017.12.7)
 * Var 8: Not started.
 * Var 9: Not started.
 * Var 10: Not started.
